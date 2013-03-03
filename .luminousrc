@@ -1,0 +1,10 @@
+{
+    "modules": {
+        "typeResource": "../test-resource-type-loader",
+        "metadata": "../test-metadata-loader"
+    },
+    "typeResource": {
+        "path": "template",
+        "extension": "ko"
+    }
+}
