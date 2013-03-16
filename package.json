@@ -1,6 +1,6 @@
 {
   "name": "luminous-knockout-template",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "=======================",
   "main": "lib/luminous-knockout-template",
   "dependencies": {
@@ -8,13 +8,13 @@
     "handlebars": "~1.0.8",
     "htmlparser": "~1.7.6",
     "jsdom": "~0.5.1",
-    "luminous-base": "~0.0.0",
+    "luminous-base": "~0.0.2",
     "underscore": "~1.4.4"
   },
   "devDependencies": {
     "jasmine-node": "~1.3.0",
-    "luminous-file-resource-type-loader": "~0.0.0",
-    "luminous-server-config": "~0.0.0"
+    "luminous-file-resource-type-loader": "~0.0.2",
+    "luminous-server-config": "~0.0.2"
   },
   "scripts": {
     "test": "jasmine-node --forceexit specs/"
