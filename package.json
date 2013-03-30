@@ -1,11 +1,11 @@
 {
   "name": "luminous-knockout-template",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "=======================",
   "main": "lib/luminous-knockout-template",
   "dependencies": {
     "async": "~0.2.6",
-    "futureeventemitter": "~0.9.0",
+    "futureeventemitter": "~0.9.1",
     "handlebars": "~1.0.8",
     "jsdom": "~0.5.1",
     "htmlparser": "~1.7.6",
