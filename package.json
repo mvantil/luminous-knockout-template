@@ -1,13 +1,14 @@
 {
   "name": "luminous-knockout-template",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "=======================",
   "main": "lib/luminous-knockout-template",
   "dependencies": {
     "async": "~0.2.6",
+    "futureeventemitter": "~0.9.0",
     "handlebars": "~1.0.8",
-    "htmlparser": "~1.7.6",
     "jsdom": "~0.5.1",
+    "htmlparser": "~1.7.6",
     "luminous-base": "~0.0.2",
     "underscore": "~1.4.4"
   },
@@ -19,8 +20,12 @@
   "scripts": {
     "test": "jasmine-node --forceexit specs/"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvantil/luminous-knockout-template"
+  },
   "author": "",
   "license": "BSD",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "gitHead": "7fc129550cbb1ebf9127032a9f82e8a92790807a"
 }
