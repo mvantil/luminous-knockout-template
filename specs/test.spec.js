@@ -9,6 +9,8 @@ describe("Luminous Knockout Template loader suite", function() {
         spyOn(fs, 'readFile').andCallFake(function(fileName, callback) {
             if (fileName == './template/string.ko') {
                 return callback(null, '<template context="field"><span data-bind="text: {{field}}"/></template><template context="field" writable="yes"><span data-bind="text: {{field}}"/></template>');
+            } else if (fileName == './template/form.ko') {
+                return callback(null, '<div data-bind="foreach: $data">{{#this}}{{{this}}}{{/this}}</div>');
             }
             return oldReadFile(fileName, callback);
         });
