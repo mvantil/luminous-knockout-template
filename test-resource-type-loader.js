@@ -1,6 +1,8 @@
+var fs = require('fs');
+
 function TypeLoader() {
     this.load = function(type, callback) {
-        callback(null, 'Template data');
+    	fs.readFile('./template' + type + '.ko', callback);
     };
 }
 
