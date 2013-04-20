@@ -1,6 +1,6 @@
 {
   "name": "luminous-knockout-template",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "=======================",
   "main": "lib/luminous-knockout-template",
   "dependencies": {
