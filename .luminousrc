@@ -1,10 +1,8 @@
 {
     "modules": {
-        "typeResource": "../test-resource-type-loader",
-        "metadata": "../test-metadata-loader"
-    },
-    "typeResource": {
-        "path": "template",
-        "extension": "ko"
+		"template": "../../../lib/luminous-knockout-template.js",
+        "metadata": "../../../test-metadata-loader",
+        "templateLoader": "../../../test-template-loader",
+        "templateRenderer": "luminous-handlebars-template-renderer"
     }
 }
